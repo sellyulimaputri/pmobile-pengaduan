@@ -5,7 +5,7 @@ $nama   = $_POST['nama'] ?? '';
 $nik    = $_POST['nik'] ?? '';
 $alamat = $_POST['alamat'] ?? '';
 $telp   = $_POST['telp'] ?? '';
-$email  = $_POST['email'] ?? '';
+$email  = $_POST['email'] ?? 'ppp';
 
 if ($nama == '' || $nik == '' || $alamat == '' || $telp == '' || $email == '') {
     echo json_encode([
